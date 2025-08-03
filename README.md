@@ -1,16 +1,16 @@
-Figma Page Link: [View Only]
+#Figma Page Link: [View Only]
 https://www.figma.com/design/WuuHDw4CCfSZOqNRuueu0Y/Yijun_lu-for-Web_Dev-Final?node-id=1-2&t=igyJ8A2BKiiYXWmN-1
 
-Frameworks
+#Frameworks
 - Bootstrap
 - Font Awesome
 
-Fonts
-- Lilita One** - Display font for headings
+#Fonts
+- Lilita One - Display font for headings
 - Roboto - Body text font
 
 
-File Structure
+#File Structure
 ```
 project-root/
 ├── index.html           # Home page
@@ -30,7 +30,7 @@ project-root/
 ```
 
 
-Color Palette
+#Color Palette
 - Primary: #DDE9D4 (Soft green)
 - Success: #BADC58 (Bright green)
 - Dark: #4A2E15 (Dark brown)
@@ -38,20 +38,20 @@ Color Palette
 - Background: #FFFFFF (White)
 
 
-Typography
+#Typography
 - Headings: Lilita One font family
 - Body: Roboto font family
 - Responsive font sizes: 14px mobile, 22px desktop
 
 
-External Libraries & Frameworks
+#External Libraries & Frameworks
 - [Bootstrap 5](https://getbootstrap.com/) - Main CSS framework
 - [Font Awesome 6.5.1](https://fontawesome.com/) - Icon library
 - [Bootstrap Icons](https://icons.getbootstrap.com/) - Additional icons
 
-Fonts
+#Fonts
 - [Google Fonts - Lilita One](https://fonts.google.com/specimen/Lilita+One) - Display font
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto) - Body text font
 
-Images
+#Images
 All images used in this project are sourced from [Unsplash](https://unsplash.com) - a free stock photo platform with royalty-free images.
