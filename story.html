@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mtm6201-final Yijun_Lu</title>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>
+
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-md bg-primary" aria-label="Main navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-plant-palette.svg" width="63" height="44" alt="brand logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="story.html">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main id="main-content" role="main">
+
+    <section aria-labelledby="mission-heading">
+        <div class="container">
+            <h2 id="mission-heading" class="text-center m-5">Our Mission</h2>
+            <p>At Plant Palette, we are dedicated to bringing the freshest, locally sourced ingredients to your table.
+                Our mission is to create a sustainable dining experience that celebrates the beauty and diversity of
+                plant-based cuisine.</p>
+        </div>
+    </section>
+
+    <section id="story-image-section" aria-labelledby="story-image-section">
+        <picture>
+            <source srcset="images/story-sm.jpg, images/story-md.jpg 2x, images/story-lg.jpg 3x" media="(max-width: 402px)">
+            <source srcset="images/story-md.jpg, images/story-lg.jpg 2x" media="(min-width: 403px) and (max-width: 834px)">
+            <source srcset="images/story-lg.jpg" media="(min-width: 835px)">
+            <img src="images/story.jpg" alt="Harvesting fresh organic vegetables for Plant Palette restaurant"
+                class="img-fluid w-100 object-fit-cover">
+        </picture>
+    </section>
+
+    <section class="container-fluid m-3" aria-labelledby="chef-heading">
+        <h3 id="chef-heading" class="text-center">The chef</h3>
+        <div class="row align-items-center">
+            <div class="col-md d-flex justify-content-center">
+                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="col-md d-flex justify-content-center">
+                <img src="images/chef.JPG" class="img rounded-circle object-fit-cover" width="300" height="300" alt="photo of chef">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="position-relative" aria-labelledby="ingredients-heading">
+
+        <img src="images/fresh.JPG" class="position-absolute z-0 w-100 h-100 object-fit-cover" alt="fresh ingredients">
+
+
+        <div class="container position-relative z-1">
+
+            <div class="text-center py-5">
+                <h2 id="ingredients-heading" class="text-white">Fresh Ingredient</h2>
+            </div>
+
+            <!-- Mobile Style Carousel -->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide d-md-none pb-1" aria-labelledby="ingredients-heading" 
+                     aria-roledescription="carousel">
+
+                <div class="carousel-indicators" role="tablist">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner pb-.5">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/gradient-1.JPG" class="d-block w-100" width="346" height="362" alt="Highlight ingredient 1">
+                        <div class="card-body carousel-caption bg-light">
+                            <h3 class="card-title text-center">First slide label</h3>
+                            <p class="card-text">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/gradient-2.JPG" class="d-block w-100" width="346" height="362" alt="Highlight ingredient 2">
+                        <div class="card-body carousel-caption bg-light">
+                            <h3 class="card-title text-center">Second slide label</h3>
+                            <p class="card-text">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item">
+                        <img src="images/gradient-3.JPG" class="d-block w-100" width="346" height="362" alt="Highlight ingredient 3">
+                        <div class="card-body carousel-caption bg-light">
+                            <h3 class="card-title text-center">Thrid slide label</h3>
+                            <p class="card-text">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/gradient-4.JPG" class="d-block w-100" width="346" height="362" alt="Highlight ingredient 4">
+                        <div class="card-body carousel-caption bg-light">
+                            <h3 class="card-title text-center">Final slide label</h3>
+                            <p class="card-text">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" aria-label="Go to previous ingredient slide">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" aria-label="Go to next ingredient slide">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Desktop Style Grid -->
+            <div class="d-none d-md-block pb-5">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/gradient-1.JPG" class="card-img-top object-fit-cover" width="300" height="300" alt="Highlight ingredient 1">
+                            <div class="card-body">
+                                <h3 class="card-title">First slide label</h3>
+                                <p class="card-text">Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/gradient-2.JPG" class="card-img-top object-fit-cover" width="300" height="300" alt="Highlight ingredient 2">
+                            <div class="card-body">
+                                <h3 class="card-title">Second slide label</h3>
+                                <p class="card-text">Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/gradient-3.JPG" class="card-img-top object-fit-cover" width="300" height="300" alt="Highlight ingredient 3">
+                            <div class="card-body">
+                                <h3 class="card-title">Third slide label</h3>
+                                <p class="card-text">Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/gradient-4.JPG" class="card-img-top object-fit-cover" width="300" height="300" alt="Highlight ingredient 4">
+                            <div class="card-body">
+                                <h3 class="card-title">Fourth slide label</h3>
+                                <p class="card-text">Some representative placeholder content for the fourth slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="bg-primary container-fluid p-3">
+        <div class="row align-items-center">
+            <div class="col-4 text-start">
+                <p class="mb-0">&copy; Plant Palette copyright @2025</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="images/logo-plant-palette.svg" width="63" height="44" alt="Plant Palette restaurant logo">
+            </div>
+            <div class="col-4 text-end social-icons">
+                <a href="https://www.instagram.com" aria-label="Visit our Instagram page"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com" aria-label="Visit our Facebook page"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.x.com" aria-label="Visit our Twitter page"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

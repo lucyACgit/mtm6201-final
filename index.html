@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mtm6201-final Yijun_Lu</title>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+    <a class="visually-hidden-focusable" href="#hero">Skip to main content</a>
+
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-md bg-primary" role="navigation" aria-label="Main navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-plant-palette.svg" width="63" height="44" alt="brand logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="story.html">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="position-relative" role="banner">
+            <div class="position-absolute top-50 start-50 translate-middle w-100">
+                <div class="text-center">
+                    <h1 class="display-1 text-warning">Freshness From Farm to Table</h1>
+                </div>
+            </div>
+            <picture>
+                <source srcset="images/banner-sm.jpg, images/banner-md.jpg 2x, images/banner-lg.jpg 3x"
+                    media="(max-width: 402px)">
+                <source srcset="images/banner-md.jpg, images/banner-lg.jpg 2x"
+                    media="(min-width: 403px) and (max-width: 834px)">
+                <source srcset="images/banner-lg.jpg" media="(min-width: 835px)">
+                <img src="images/banner.jpg"
+                    alt="Fresh farm vegetables and plant-based ingredients showcasing Plant Palette's farm-to-table commitment"
+                    class="img-fluid w-100">
+            </picture>
+        </section>
+
+
+        <section id="about" class="container-fluid bg-primary p-sm-3" role="main" aria-labelledby="about-heading">
+
+            <div class="card mb-3 bg-primary">
+                <div class="row g-0 h-100">
+                    <div class="col-4 d-flex">
+                        <img src="images/about-1.JPG" class="img-fluid rounded-5 object-fit-cover"
+                            alt="sitting area of the restaurant">
+                    </div>
+
+                    <div class="col-4 d-flex p-md-5">
+                        <div class="card-body">
+                            <h2 id="about-heading" class="card-title text-center">About Us</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <button class="btn btn-success d-block mx-auto" type="button"
+                                aria-label="Contact Plant Palette restaurant">CONTACT</button>
+                        </div>
+                    </div>
+
+                    <div class="col-4 d-flex">
+                        <img src="images/about-2.JPG" class="img-fluid rounded-5 object-fit-cover"
+                            alt="Fresh organic vegetables being prepared in Plant Palette kitchen">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services" class="container-fluid p-3" role="region" aria-labelledby="services-heading">
+
+            <div id="services-heading" class="card mb-3">
+                <div class="row g-0">
+                    <div class="col">
+                        <img src="images/service-1.JPG" class="img-fluid rounded-end-pill"
+                            alt="Colorful plant-based seasonal menu items beautifully plated">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3 class="card-title">Plant-Based Seasonal Menu</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <button type="button" class="btn btn-success d-block mx-auto"
+                                aria-label="View our plant-based seasonal menu">Check the Menu</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="card-body">
+                            <h3 class="card-title">Catering for Events</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <button type="button" class="btn btn-success d-block mx-auto"
+                                aria-label="Book catering for your event">Book an Event</button>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/service-2.JPG" class="img-fluid rounded-start rounded-start-pill"
+                            alt="Elegant catering setup for special events">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/service-3.JPG" class="img-fluid rounded-end-pill"
+                            alt="Farm-to-table dining experience with fresh ingredients">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h3 class="card-title">Farm-to-Table Dining Experience</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+
+                            <button type="button" class="btn btn-success d-block mx-auto"
+                                aria-label="Explore our farm-to-table dining experience">Explore More</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" role="region" aria-labelledby="reservation-heading">
+            <div class="row bg-dark p-5">
+                <form class="col-md" role="form" aria-labelledby="reservation-heading">
+                    <h3 id="reservation-heading" class="text-white text-center">Make a Reservation</h3>
+                    <div class="social-icon mb-1">
+                        <label for="customer-name" class="form-label"></label>
+                        <i class="fas fa-user input-icon"></i>
+                        <input type="text" class="form-control" id="customer-name" placeholder="Name">
+                    </div>
+                    <div class="social-icon mb-1">
+                        <label for="guest-number" class="form-label"></label>
+                        <i class="fas fa-users input-icon"></i>
+                        <input type="text" class="form-control" id="guest-number" placeholder="Number of Guests">
+                    </div>
+                    <div class="social-icon mb-1">
+                        <label for="contact-number" class="form-label"></label>
+                        <i class="fas fa-phone input-icon"></i>
+                        <input type="text" class="form-control" id="contact-number" placeholder="Contact Number">
+                    </div>
+                    <div class="social-icon mb-1">
+                        <label for="date-time" class="form-label"></label>
+                        <i class="fas fa-calendar input-icon"></i>
+                        <input type="text" class="form-control" id="date-time" placeholder="Date & Time">
+                    </div>
+                    <button type="submit" class="btn btn-primary d-block mx-auto mt-3"
+                        aria-label="Submit reservation request">SUBMIT</button>
+                </form>
+
+                <div class="col mt-sm-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"
+                        title="Location of Plant Palette restaurant"
+                        aria-label="Interactive map showing restaurant location"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="bg-primary container-fluid p-3">
+        <div class="row align-items-center">
+            <div class="col-4 text-start">
+                <p class="mb-0">&copy; Plant Palette copyright @2025</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="images/logo-plant-palette.svg" width="63" height="44" alt="Plant Palette restaurant logo">
+            </div>
+            <div class="col-4 text-end social-icons">
+                <a href="https://www.instagram.com" aria-label="Visit our Instagram page"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com" aria-label="Visit our Facebook page"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.x.com" aria-label="Visit our Twitter page"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+
+$body-bg: #FFFFFF;
+$primary: #DDE9D4;      
+$success: #BADC58;      
+$dark: #4A2E15;          
+$warning: #FFFAC7;        
+
+
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+$headings-font-family: "Lilita One", "Roboto", Arial, sans-serif;  
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 402px,
+  md: 834px,
+  lg: 1440px,
+  xl: 1600px,
+  xxl: 1800px
+);
+
+$container-max-widths: (
+  sm: 390px,
+  md: 820px,
+  lg: 1420px,
+  xl: 1580px,
+  xxl: 1780px
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+// Then add additional custom code here
+
+.btn {
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: white;
+        border: 2px solid $success;
+    }
+}
+
+
+p, button {
+    font-size: 14px;
+    
+    @include media-breakpoint-up(md) {
+        font-size: 22px;
+    }
+}
+
+#about .card {
+    border: none;
+}
+
+#services .card img {
+    width: 100%;
+    aspect-ratio: 16/9; 
+    object-fit: cover;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 300px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: $success;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-icon {
+    position: relative;
+
+    .form-control {
+        padding-left: 2.5rem;
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 0.75rem;
+        top: 70%;
+        transform: translateY(-50%);
+        z-index: 99;
+    }
+}
